@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-api-spfx-client-side-solution",
+    "id": "e3253d8f-83cc-45a5-9929-e9e9dfbd32cb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-api-spfx.sppkg"
+  }
+}
